@@ -1,3 +1,7 @@
 = essai-vaea
 
 Ce dossier est un bac `a sable pour utiliser GIT.
+
+== Sous dossier 
+
+Création d’un sous dossier
