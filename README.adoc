@@ -1,6 +1,6 @@
 = essai-vaea
 
-Ce dossier est un bac `a sable pour utiliser GIT.
+Ce dossier est un bac à sable pour utiliser GIT.
 
 == Sous dossier 
 
