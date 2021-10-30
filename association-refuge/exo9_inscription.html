@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page inscription</title>
+	<meta charset="utf-8" />
+</head>
+<body style="background: url(https://iphonesoft.fr/images/_082019/fond-ecran-dynamique-macos-wallpaper-club.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+	
+<h1 align="center"><font color="white" size="7" face="serif">Z'ANIMO</font></h1>
+<!--BANNIERE-->
+<table cellspacing="100" cellpading="100">
+    
+    <tr>
+      <td>
+        <img src="../images_asso/logo1.png" alt="logo" height="130">
+      </td>
+
+  
+      
+        <td>
+          <th align="center"><font color="white" size="6" face="serif">BESOIN DE SOIN BESOIN DE VOUS</font>
+            
+           
+          </th>
+        </td>
+        
+       
+   
+    </td>
+      </td>
+      <td>
+       <th>
+        <form action="post">
+          <input type="text" value="Rechercher ..." />
+          <input type="submit" value="Valider"/>
+      </form>
+         
+        </th> 
+      </td>
+    </tr> 
+   
+   </table>
+  
+    
+
+
+
+
+<!--INSCRIPTION-->
+
+
+<h1 align="center"><font color="white" size="5" face="serif">Inscription</font></h1>
+	<form method="post" action="confimation_insciption_refuge.html">
+		<table align="center" width="70%" cellspacing="15">
+			<tr>
+				<td>
+					<label for="date"><font color="white">Date d'inscription</font></label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="text" name="date" id="date" required value="29/10/2021" disabled />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="nom"><font color="white">Nom</font></label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="text" name="nom" id="nom" required />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="prenom"><font color="white">Prénom</font></label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="text" name="prenom" id="prenom" required />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="mail"><font color="white">E-mail</font></label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="email" name="mail" id="mail" required />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="ville"><font color="white">Ville de résidence</font></label><strong><font color="red">*</font></strong>
+					
+				</td>
+				<td>
+					<input type="text" name="ville" id="ville" required list="villes" />
+					<datalist id="villes">
+						<option value="Paris">Capitale</option>
+						<option value="Lyon">Lyon</option>
+						<option value="Bordeaux">Bordeaux</option>
+						<option value="Lille">Lille</option>
+					</datalist>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="newsletter"><font color="white">Inscription à la newsletter</font></label><strong><font color="red">*</font></strong>
+				</td>
+				<td>
+					<input type="radio" name="newsletter" id="newsletter-oui" value="1" checked /> Oui
+					<input type="radio" name="newsletter" id="newsletter-non" value="0" checked /> Non
+				</td>
+			</tr>
+			
+
+
+			<tr>
+				<td valign="top">
+					<label for="presentation"><font color="white">Bonus</font></label>
+				</td>
+				<td>
+					<textarea name="presentation" id="presentation" required rows="20" cols="50" maxlength="1000">
+Seriez-vous intéressez par l'adoption? :
+					
+Si oui, vous occupez-vous déjà d'un animal?Lequel? :</textarea>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<input type="reset" value="Tout effacer" />
+				</td>
+				<td align="center">
+					<input type="submit" value="S'inscrire" />
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
